@@ -14,7 +14,7 @@ RUN npm install
 COPY . .
 
 # Build the app
-RUN npm run build
+RUN npm run dev
 
 # Use a lightweight image for serving the built app
 FROM nginx:alpine
